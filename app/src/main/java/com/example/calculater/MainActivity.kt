@@ -131,7 +131,7 @@ class MainActivity : AppCompatActivity() {
             }catch (e:Exception){
                 binding.txtJavab.text=""
                 binding.txtAmaliat.text=""
-                Toast.makeText(this, "عملیات ریاضی را به درستی وارد کنید", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Invalid format used!", Toast.LENGTH_LONG).show()
             }
         }
 
